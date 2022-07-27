@@ -13,4 +13,4 @@ export const toSellOrNotToSell = (potteryObject) => {
 
 export const usePottery = () => {
     return [].concat(potteryToSell);
-}
+};
