@@ -25,11 +25,11 @@ mug5 = firePottery(mug5, 2100)
 
 // Determine which ones should be sold, and their price
 
-let finalMug1 = toSellOrNotToSell(mug);
-let finalMug2 = toSellOrNotToSell(mug2);
-let finalMug3 = toSellOrNotToSell(mug3);
-let finalMug4 = toSellOrNotToSell(mug4);
-let finalMug5 = toSellOrNotToSell(mug5);
+mug = toSellOrNotToSell(mug);
+mug2 = toSellOrNotToSell(mug2);
+mug3 = toSellOrNotToSell(mug3);
+mug4 = toSellOrNotToSell(mug4);
+mug5 = toSellOrNotToSell(mug5);
 // console.log(finalMug)
 let theChosenMugs = usePottery()
 console.log(theChosenMugs);
