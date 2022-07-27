@@ -3,9 +3,9 @@ export const PotteryList = (potteryArray) => {
     `<section class="pottery" id="pottery--1">`
     for (let pottery of potteryArray) {
         theHTMLstring += 
-        `<h2 class="pottery__shape">${pottery.pShape}</h2>
+        `<h2 class="pottery__shape">${pottery.shape}</h2>
         <div class="pottery__properties">
-            Item weighs ${pottery.pWeight} grams and is ${pottery.pHeight} cm in height
+            Item weighs ${pottery.weight} grams and is ${pottery.height} cm in height
         </div>
         <div class="pottery__price">
             Price is $${pottery.price}`
